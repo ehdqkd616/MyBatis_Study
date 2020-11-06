@@ -1,2 +1,2 @@
-# Gugbi_7_MyBatis_workspace-
+# Gugbi_7_MyBatis_workspace
 Gugbi_7_MyBatis_workspace
