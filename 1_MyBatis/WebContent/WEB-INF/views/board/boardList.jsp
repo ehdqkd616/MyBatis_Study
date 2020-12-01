@@ -55,9 +55,9 @@
          		<c:set var="loc" value="/selectList.bo" scope="page"/>
          	</c:if>
          	<c:if test="${searchValue ne null}">
-         		<c:set var="loc" value="/serach.bo" scope="page"/>
-         	</c:if>     
-         
+         		<c:set var="loc" value="/search.bo" scope="page"/>
+         	</c:if>   
+ 
             <!-- [이전] -->
             <c:if test="${ pi.currentPage <= 1 }">
                [이전]
@@ -91,7 +91,7 @@
 	                 <c:if test="${searchValue ne null}">
 	                 	<c:param name="searchCondition" value="${searchCondition}" />
 	                  	<c:param name="searchValue" value="${searchValue}" />
-	                 </c:if>  
+	                 </c:if>
 	                                     
                   </c:url>
                   <a href="${ blistCheck }">${ p }</a>
